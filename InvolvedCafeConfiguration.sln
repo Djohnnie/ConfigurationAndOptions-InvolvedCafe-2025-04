@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConfiguration", "BasicConfiguration\BasicConfiguration.csproj", "{5117D88C-F83D-47DC-A394-0460C3AE5D4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Basic Configuration", "1. Basic Configuration", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Configuration Providers", "2. Configuration Providers", "{DC6757F4-7D0B-4BD5-8AF7-0CF446C3B4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationProviders", "ConfigurationProviders\ConfigurationProviders.csproj", "{C5327B0E-CB83-433B-BE99-8244A71EA261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Azure App Configuration", "3. Azure App Configuration", "{78ABDDF7-E77A-45DA-B0E2-FD48EBEE5D8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Custom Configuration Provider", "4. Custom Configuration Provider", "{EA060A41-B536-4940-ACDC-3EDB8082DC46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConfigurationProvider", "CustomConfigurationProvider\CustomConfigurationProvider.csproj", "{7EFC3BBC-BCCC-4BAE-B976-4A64A4E7BE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAppConfiguration", "AzureAppConfiguration\AzureAppConfiguration.csproj", "{A2BAA6C1-E116-47D7-B15A-C9B7396AE963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Configuration Binding", "5. Configuration Binding", "{4ED995B7-34CE-4C6E-AD22-460CAD391C98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Configuration using Options", "6. Configuration using Options", "{6AD44C70-0FFD-4B5F-B403-1F1275214737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Option Types", "7. Option Types", "{58555F76-9AEA-4DB0-9359-8B57DF86D96C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Option Validation", "8. Option Validation", "{CD1A7D1D-7174-4607-811C-064B42CD738A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Configure Options", "9. Configure Options", "{6E331E7A-EAFF-4A5D-BEA8-1866842D90CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationBinding", "ConfigurationBinding\ConfigurationBinding.csproj", "{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Common", "0. Common", "{AD9FFB3F-5074-4193-8067-4F7D216412E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{75ADD3BF-6682-4151-B014-8DAB7CDF168A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5117D88C-F83D-47DC-A394-0460C3AE5D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5117D88C-F83D-47DC-A394-0460C3AE5D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5117D88C-F83D-47DC-A394-0460C3AE5D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5117D88C-F83D-47DC-A394-0460C3AE5D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5327B0E-CB83-433B-BE99-8244A71EA261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5327B0E-CB83-433B-BE99-8244A71EA261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5327B0E-CB83-433B-BE99-8244A71EA261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5327B0E-CB83-433B-BE99-8244A71EA261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFC3BBC-BCCC-4BAE-B976-4A64A4E7BE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFC3BBC-BCCC-4BAE-B976-4A64A4E7BE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFC3BBC-BCCC-4BAE-B976-4A64A4E7BE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFC3BBC-BCCC-4BAE-B976-4A64A4E7BE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BAA6C1-E116-47D7-B15A-C9B7396AE963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BAA6C1-E116-47D7-B15A-C9B7396AE963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BAA6C1-E116-47D7-B15A-C9B7396AE963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BAA6C1-E116-47D7-B15A-C9B7396AE963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ADD3BF-6682-4151-B014-8DAB7CDF168A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ADD3BF-6682-4151-B014-8DAB7CDF168A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ADD3BF-6682-4151-B014-8DAB7CDF168A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ADD3BF-6682-4151-B014-8DAB7CDF168A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5117D88C-F83D-47DC-A394-0460C3AE5D4C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C5327B0E-CB83-433B-BE99-8244A71EA261} = {DC6757F4-7D0B-4BD5-8AF7-0CF446C3B4C4}
+		{7EFC3BBC-BCCC-4BAE-B976-4A64A4E7BE05} = {EA060A41-B536-4940-ACDC-3EDB8082DC46}
+		{A2BAA6C1-E116-47D7-B15A-C9B7396AE963} = {78ABDDF7-E77A-45DA-B0E2-FD48EBEE5D8C}
+		{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC} = {4ED995B7-34CE-4C6E-AD22-460CAD391C98}
+		{75ADD3BF-6682-4151-B014-8DAB7CDF168A} = {AD9FFB3F-5074-4193-8067-4F7D216412E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3140D593-E9F8-4F5F-9C42-A035B20C690F}
+	EndGlobalSection
+EndGlobal
