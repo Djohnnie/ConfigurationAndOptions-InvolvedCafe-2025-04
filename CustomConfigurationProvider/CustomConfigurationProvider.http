@@ -1,6 +1,6 @@
-@CustomConfigurationProvider_HostAddress = http://localhost:5182
+﻿@HostAddress = http://localhost:5182
 
-GET {{CustomConfigurationProvider_HostAddress}}/weatherforecast/
+GET {{HostAddress}}/config/
 Accept: application/json
 
 ###

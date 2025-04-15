@@ -1,6 +1,16 @@
-@ConfigurationBinding_HostAddress = http://localhost:5016
+﻿@HostAddress = http://localhost:5016
 
-GET {{ConfigurationBinding_HostAddress}}/weatherforecast/
+GET {{HostAddress}}/config?type=1
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/config?type=2
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/config?type=3
 Accept: application/json
 
 ###

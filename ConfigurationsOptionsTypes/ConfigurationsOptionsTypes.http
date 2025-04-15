@@ -1,0 +1,16 @@
+﻿@HostAddress = http://localhost:5011
+
+GET {{HostAddress}}/config/options
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/config/monitor
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/config/snapshot
+Accept: application/json
+
+###
