@@ -23,11 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Configuration Binding",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Configuration using Options", "06. Configuration using Options", "{6AD44C70-0FFD-4B5F-B403-1F1275214737}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Option Types", "08. Option Types", "{58555F76-9AEA-4DB0-9359-8B57DF86D96C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Option Types", "09. Option Types", "{58555F76-9AEA-4DB0-9359-8B57DF86D96C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Option Validation", "10. Option Validation", "{CD1A7D1D-7174-4607-811C-064B42CD738A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Configure Options", "09. Configure Options", "{6E331E7A-EAFF-4A5D-BEA8-1866842D90CD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Configure Options", "11. Configure Options", "{6E331E7A-EAFF-4A5D-BEA8-1866842D90CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationBinding", "ConfigurationBinding\ConfigurationBinding.csproj", "{C5C65A69-9C73-4C6D-BA85-F4BB8F118BDC}"
 EndProject
@@ -44,6 +44,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationOptionsTypes", "ConfigurationsOptionsTypes\ConfigurationOptionsTypes.csproj", "{236A5F3D-552B-45C0-912B-FE3B28D0E523}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationOptionsValidation", "ConfigurationOptionsValidation\ConfigurationOptionsValidation.csproj", "{EE301E70-E7F7-4354-BF57-524724FA9840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Configuration using Named Options", "08. Configuration using Named Options", "{5C377077-C9AF-4E1A-8303-CCA652C29F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationNamedOptions", "ConfigurationNamedOptions\ConfigurationNamedOptions.csproj", "{62A73889-C98C-4C06-890A-337A80F02900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureConfigurationOptions", "ConfigureConfigurationOptions\ConfigureConfigurationOptions.csproj", "{ADE44A76-A7DD-41F7-834B-1C86C3BDAF04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +97,14 @@ Global
 		{EE301E70-E7F7-4354-BF57-524724FA9840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE301E70-E7F7-4354-BF57-524724FA9840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE301E70-E7F7-4354-BF57-524724FA9840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A73889-C98C-4C06-890A-337A80F02900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A73889-C98C-4C06-890A-337A80F02900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A73889-C98C-4C06-890A-337A80F02900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A73889-C98C-4C06-890A-337A80F02900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE44A76-A7DD-41F7-834B-1C86C3BDAF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE44A76-A7DD-41F7-834B-1C86C3BDAF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE44A76-A7DD-41F7-834B-1C86C3BDAF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE44A76-A7DD-41F7-834B-1C86C3BDAF04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +120,8 @@ Global
 		{6ACC4EFF-2A33-478D-98DD-BD6588B1C7EC} = {894931C0-4404-4E65-ADE7-A4CA73F1BC2B}
 		{236A5F3D-552B-45C0-912B-FE3B28D0E523} = {58555F76-9AEA-4DB0-9359-8B57DF86D96C}
 		{EE301E70-E7F7-4354-BF57-524724FA9840} = {CD1A7D1D-7174-4607-811C-064B42CD738A}
+		{62A73889-C98C-4C06-890A-337A80F02900} = {5C377077-C9AF-4E1A-8303-CCA652C29F5E}
+		{ADE44A76-A7DD-41F7-834B-1C86C3BDAF04} = {6E331E7A-EAFF-4A5D-BEA8-1866842D90CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3140D593-E9F8-4F5F-9C42-A035B20C690F}

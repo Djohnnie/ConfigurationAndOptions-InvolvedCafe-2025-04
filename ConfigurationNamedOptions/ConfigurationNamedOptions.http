@@ -1,0 +1,11 @@
+﻿@HostAddress = http://localhost:5095
+
+GET {{HostAddress}}/config/A
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/config/B
+Accept: application/json
+
+###

@@ -1,4 +1,5 @@
-﻿using Helpers;
+﻿using ConfigurationOptionsValidation;
+using Helpers;
 using Microsoft.Extensions.Options;
 using System.ComponentModel.DataAnnotations;
 
@@ -7,6 +8,8 @@ builder.Services.AddOptions<ConfigValues>()
                 .BindConfiguration("MySettings")
                 .ValidateDataAnnotations()
                 .ValidateOnStart();
+
+builder.Services.AddSingleton<IValidateOptions<ConfigValues>, ConfigValuesValidation>();
 
 var app = builder.Build();
 
@@ -28,12 +31,21 @@ app.MapGet("/config", (HttpContext httpContext, IOptionsMonitor<ConfigValues> op
 
 app.Run();
 
-class ConfigValues
+class ConfigValues : IValidatableObject
 {
+    [Range(1, 100)]
     public int Number { get; set; }
 
     [Required(AllowEmptyStrings = false), MinLength(20), MaxLength(200)]
     public string Text { get; set; } = string.Empty;
 
     public bool Flag { get; set; }
+
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+        if (!Flag)
+        {
+            yield return new ValidationResult("Flag must be true.", [nameof(Flag)]);
+        }
+    }
 }

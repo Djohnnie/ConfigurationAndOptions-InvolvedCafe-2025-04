@@ -10,10 +10,10 @@
     },
     "https": {
       "commandName": "Project",
-      "commandLineArgs": "--MySettings:Setting3=CmdValue3",
+      "commandLineArgs": "--MySettings:Setting1=CmdValue1",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "MySettings__Setting1": "EnvValue1"
+        "MySettings__Setting2": "EnvValue2"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7150;http://localhost:5136"

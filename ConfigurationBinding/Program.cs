@@ -1,6 +1,4 @@
 ﻿using Helpers;
-using Microsoft.AspNetCore.Http;
-using System.Reflection.PortableExecutable;
 
 var builder = WebApplication.CreateBuilder(args);
 

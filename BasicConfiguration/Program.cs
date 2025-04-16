@@ -1,6 +1,8 @@
 ﻿using Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
+//builder.Configuration.AddEnvironmentVariables();
+//builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
 var app = builder.Build();
 app.UseHttpsRedirection();
